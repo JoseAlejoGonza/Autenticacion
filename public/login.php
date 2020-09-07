@@ -5,7 +5,7 @@ use League\OAuth2\Client\Provider\Google;
 
 session_start(); 
 //FACEBOOK
-$provider = new \League\OAuth2\Client\Provider\Facebook([
+/*$provider = new \League\OAuth2\Client\Provider\Facebook([
     'clientId'          => '{1165208620545882}',
     'clientSecret'      => '{0c3f115c3e64d15560e413ee8af379e7}',
     'redirectUri'       => 'https://localhost/Autenticacion/public/index.php',
@@ -54,7 +54,7 @@ var_dump($token->getToken());
 
 var_dump($token->getExpires());
 # int(1436825866)
-echo '</pre>';
+echo '</pre>';*/
 
 //GOOGLE
 $provider = new Google([
